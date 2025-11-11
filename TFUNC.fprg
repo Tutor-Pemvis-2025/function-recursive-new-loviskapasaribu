@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tutor"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-11 08.25.17 PM"/>
+        <attribute name="created" value="VVNFUjtMQVBUT1AtVUZVQUEzSUo7MjAyNC0xMS0wNTswOToxMzo0MiBQTTsyNjc0"/>
+        <attribute name="edited" value="VVNFUjtMQVBUT1AtVUZVQUEzSUo7MjAyNC0xMS0wNTswOToxODoyNCBQTTsxOzI3ODc="/>
+        <attribute name="edited" value="TG92aXM7TE9WSVNLQTsyMDI1LTExLTExOzA4LjI1LjE3IFBNOzE7MjQyNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, hasil" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="hasil" expression="pertambahan(n)"/>
+            <output expression="hasil" newline="True"/>
+        </body>
+    </function>
+    <function name="pertambahan" type="Integer" variable="hasil">
+        <parameters>
+            <parameter name="n" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="hasil" type="Integer" array="False" size=""/>
+            <if expression="n==1">
+                <then>
+                    <assign variable="hasil" expression="1"/>
+                </then>
+                <else>
+                    <assign variable="hasil" expression="pertambahan(n-1)+n"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
