@@ -1,4 +1,5 @@
 // 12S25016_Loviska Astria Pasaribu
+// 12S25040_Cyndi Manullang
 
 import java.util.*;
 import java.lang.Math;
@@ -11,7 +12,7 @@ public class TFUNC {
 
         n = Integer.parseInt(input.nextLine());
         hasil = pertambahan(n);
-        System.out.println(hasil);
+        System.out.println("Bilangan yang dimasukkan : " + hasil);
     }
     
     public static int pertambahan(int n) {

@@ -4,10 +4,10 @@
         <attribute name="name" value="tutor"/>
         <attribute name="authors" value="USER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-11-11 08.25.17 PM"/>
+        <attribute name="saved" value="2025-11-11 09.05.39 PM"/>
         <attribute name="created" value="VVNFUjtMQVBUT1AtVUZVQUEzSUo7MjAyNC0xMS0wNTswOToxMzo0MiBQTTsyNjc0"/>
         <attribute name="edited" value="VVNFUjtMQVBUT1AtVUZVQUEzSUo7MjAyNC0xMS0wNTswOToxODoyNCBQTTsxOzI3ODc="/>
-        <attribute name="edited" value="TG92aXM7TE9WSVNLQTsyMDI1LTExLTExOzA4LjI1LjE3IFBNOzE7MjQyNg=="/>
+        <attribute name="edited" value="TG92aXM7TE9WSVNLQTsyMDI1LTExLTExOzA5LjA1LjM5IFBNOzI7MjQzMA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,7 +15,7 @@
             <declare name="n, hasil" type="Integer" array="False" size=""/>
             <input variable="n"/>
             <assign variable="hasil" expression="pertambahan(n)"/>
-            <output expression="hasil" newline="True"/>
+            <output expression="&quot;Bilangan yang dimasukkan : &quot; &amp; hasil" newline="True"/>
         </body>
     </function>
     <function name="pertambahan" type="Integer" variable="hasil">
