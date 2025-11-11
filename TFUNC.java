@@ -3,7 +3,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class tutor_recurtion {
+public class TFUNC {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
