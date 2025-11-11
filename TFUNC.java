@@ -12,7 +12,8 @@ public class TFUNC {
 
         n = Integer.parseInt(input.nextLine());
         hasil = pertambahan(n);
-        System.out.println("Bilangan yang dimasukkan : " + hasil);
+        System.out.println("Bilangan yang dimasukkan : " + n);
+        System.out.println("Hasil perhitungan rekursif : " + hasil);
     }
     
     public static int pertambahan(int n) {
@@ -27,3 +28,4 @@ public class TFUNC {
         return hasil;
     }
 }
+

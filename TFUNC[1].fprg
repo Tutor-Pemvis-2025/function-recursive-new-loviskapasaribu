@@ -4,10 +4,11 @@
         <attribute name="name" value="tutor"/>
         <attribute name="authors" value="USER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-11-11 09.05.39 PM"/>
+        <attribute name="saved" value="2025-11-11 09.08.54 PM"/>
         <attribute name="created" value="VVNFUjtMQVBUT1AtVUZVQUEzSUo7MjAyNC0xMS0wNTswOToxMzo0MiBQTTsyNjc0"/>
         <attribute name="edited" value="VVNFUjtMQVBUT1AtVUZVQUEzSUo7MjAyNC0xMS0wNTswOToxODoyNCBQTTsxOzI3ODc="/>
-        <attribute name="edited" value="TG92aXM7TE9WSVNLQTsyMDI1LTExLTExOzA5LjA1LjM5IFBNOzI7MjQzMA=="/>
+        <attribute name="edited" value="TE9RO0xBUFRPUC1VOFZUMlM5NTsyMDI1LTExLTExOzA4OjQ5OjE1IFBNOzI7MjY5Mg=="/>
+        <attribute name="edited" value="TG92aXM7TE9WSVNLQTsyMDI1LTExLTExOzA5LjA4LjU0IFBNOzI7MjQzMA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,7 +16,8 @@
             <declare name="n, hasil" type="Integer" array="False" size=""/>
             <input variable="n"/>
             <assign variable="hasil" expression="pertambahan(n)"/>
-            <output expression="&quot;Bilangan yang dimasukkan : &quot; &amp; hasil" newline="True"/>
+            <output expression="&quot;Bilangan yang dimasukkan : &quot; &amp; n" newline="True"/>
+            <output expression="&quot;Hasil perhitungan rekursif : &quot; &amp; hasil" newline="True"/>
         </body>
     </function>
     <function name="pertambahan" type="Integer" variable="hasil">
